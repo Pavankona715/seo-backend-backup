@@ -1,0 +1,58 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+backend/venv/
+backend/.venv/
+*.pyc
+
+# Environment
+.env
+.env.local
+.env.production
+.env.*.local
+!.env.example
+
+# Alembic
+backend/database/migrations/
+
+# Node.js
+node_modules/
+.next/
+out/
+frontend/.next/
+frontend/node_modules/
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Test coverage
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Celery
+celerybeat.pid
+celerybeat-schedule
+
+# Playwright
+playwright-report/
+test-results/
